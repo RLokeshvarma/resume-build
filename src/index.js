@@ -5,11 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ResumePage from './resumePage';
 import ResumeMarketing from './resumeMarketing';
+import ResumeGraphicDesigner from './resumeGraphic';
+import ResumeME from './resumeME';
+import ResumeWeb from './resumeWeb';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ResumeMarketing />
+    <ResumePage />
   </React.StrictMode>
 );
 
